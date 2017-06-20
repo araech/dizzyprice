@@ -1,0 +1,39 @@
+TODO
+============
+
+dizzyprice:
+[X] Format armor object
+[X] Create armor-calculating functions / generalize weapon functions
+[ ] Use map() and lambda for loops where possible? I don't know python.
+[X] Allow multiple search terms for descriptions (e.g., 'buckled' and 'boots)
+    (space-separated)
+[X] Intelligently handle buckled/snow/mantelet input
+[X] Lowercase all description input
+[X] Implement and standardize command-line arguments
+[X] Command-line option to output suitable for web display
+    [ ] OR command-line option to output suitable for parsing by
+        PHP file for web display
+[ ] Create desciptor lists to replace string descriptors in classes where it would
+    fit, such as with wands, potions, scrolls...
+    [ ] Adjust copy_data() and prune*() functions to accomodate this change
+web frontend:
+[X] Start PHP front-end
+[X] Conditional visibility of description field (armor/weapon)
+[X] Forbid non-[A-Z][a-z] in description, non-[0-9] in price for security
+[ ] Reasonable response to failed input
+[X] "Help" box
+[X] Download/git link with license notice
+[X] Bug reporting / contact / feedback link (note to encourage people to complain)
+[ ] Fix parse_lookup_string() to avoid solely relying on isalpha()
+[ ] Shopkeeper bankrupt? Offer boolean to check credit offer.
+
+WISHLIST
+============
+
+dizzyprice:
+[ ] Command-line interactive interface
+[ ] Probability-based sorting
+
+web frontend:
+[ ] Links to item pages on nethackwiki
+[X] Piwik statistics for usage

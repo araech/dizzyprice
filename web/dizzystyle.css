@@ -1,0 +1,77 @@
+/* DizzyPrice CSS */
+
+body {
+    padding: 5px;
+}
+
+ h1 {
+    font-size: 1.3em;
+    padding: 0;
+    margin: 0;
+    line-height: 1.3em;
+}
+
+p.banner {
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+}
+
+div#about {
+    width: 340px;
+    background-color: #9be;
+    border: 2px solid #333;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#about p {
+    font-size: .9em;
+}
+
+div#about a:link,
+div#about a:visited {
+    font-weight: bold;
+    color: #223377;
+}
+
+th {
+    text-align: left;
+    width: 7em;
+}
+
+td {
+    font-size: .9em;
+}
+
+.beta {
+    color: red;
+}
+
+.dizzyout td:nth-child(n+2),
+.dizzyout th:nth-child(n+2) {
+    text-align: right;
+}
+
+@media all and (min-width:970px) {
+    div#program {
+	min-width: 450px;
+	float: left;
+    }
+    div#about {
+	float: right;
+    }
+}
+
+@media all and (max-width:969px) {
+    div#about {
+	width: 340px;
+	margin: 0 auto 20px;
+	
+    }
+}
