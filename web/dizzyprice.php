@@ -308,7 +308,7 @@ function showForm()
 	    <p>DizzyPrice is free software licensed under the AGPLv3+,
 		and was written by Aubrey Raech (<a href="https://alt.org/nethack/plr.php?player=dizzylizzy">dizzylizzy</a>). If
 		you want to download the Python script yourself, visit
-		its <a href="http://git.raech.net/?p=dizzyprice.git">git repository</a>.</p>
+		its <a href="https://github.com/araech/dizzyprice">git repository</a>.</p>
 	    <p>This is very much not done and very much still in
 		development. If you find any bugs, please email me: aubrey at
 		raech dot net</p>
